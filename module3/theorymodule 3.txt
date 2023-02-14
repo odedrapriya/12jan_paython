@@ -1,0 +1,63 @@
+1) What is List? How will you reverse a list?
+-> Lists are used to store multiple items in a single variable.
+
+   Lists are one of 4 built-in data types in Python used to store collections of
+   data, the other 3 are Tuple, Set, and Dictionary, all with different qualitie
+   and usage.
+
+   Lists are created using square brackets:[]
+
+	Example :
+	   thislist = ["apple", "banana", "cherry"]
+      print(thislist)
+
+->	a built-in function called reverse() is used to reverse the list. This simple and quick way to 
+	reverse a list in Python requires little memory. Syntax: list_name. reverse() Here, list_name means 
+	you have to write the list's name, which has to be reversed.
+
+	Syntax :
+
+	list.reverse()
+
+2) How will you remove last object from a list? 
+   Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]?
+
+-> The method pop() can be used to remove and return the last value from the list or the given index 
+   value. If the index is not given, then the last element is popped out and removed.
+
+   list.pop() –
+   The simplest approach is to use list’s pop([i]) method which removes and returns an item present at 
+   the specified position in the list.
+
+   list.remove() –
+   This is another approach where the method remove(x) removes the first item from the list which 
+   matches the specified value.
+   
+-> list[2, 33, 222, 14, 25]
+	list[-1] 25
+
+3) Differentiate between append () and extend () methods? 
+-> Append() :
+
+	You should use this method when you want to add a single item to the end of a list.
+
+   You can add items of any data type since lists can have elements of different data types.
+
+	To call the .append() method, you will need to use this syntax:
+	
+	<list>.append.(<item>)
+
+	Extend() :
+	
+	You should use this method if you need to append several items to a list as individual items.
+
+	example :
+
+	 x = [1, 2, 3]
+    x.extend([4, 5])
+    print (x)
+
+
+
+
+
