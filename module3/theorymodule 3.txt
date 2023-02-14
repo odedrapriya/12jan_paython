@@ -57,6 +57,51 @@
     x.extend([4, 5])
     print (x)
 
+4) How will you compare two lists?
+
+-> Counter() class can be used to compare lists. The counter() function counts the frequency of the 
+   items in a list and stores the data as a dictionary object in the format value:frequency . If two 
+   lists have the same dictionary output, you can infer that the lists are the same.
+
+	Using list.sort() and == operator
+	The list.sort() method sorts the two lists and the == operator compares the two lists item by 
+	item which means they have equal data items at equal positions. This checks if the list contains 
+	equal data item values but it does not take into account the order of elements in the list. This
+	means that the list [1,2,3] will be equal to the list [2,1,3] according to this method of comparison.
+
+5) How will you create a dictionary using tuples in python?
+
+-> use the dict() function to convert a tuple to a dictionary. A dictionary object can be created with 
+   the dict() function. The dictionary is returned by the dict() method, which takes a tuple of tuples 
+   as an argument.
+
+	example :
+	 		
+				t = ((1, 'a'),(2, 'b'))
+				dict(t)
+	out put :
+				{1: 'a', 2: 'b'}
+
+6) How Do You Traverse Through A Dictionary Object In Python?
+
+-> Dictionary in Python is an unordered collection of data values, used to store data values like a map,
+   unlike other Data Types that hold only a single value as an element, Dictionary holds the key: value 
+   pair. 
+
+	There are multiple ways to iterate over a dictionary in Python.
+
+	Access key using the build .keys() 
+	Access key without using a key() 
+	Iterate through all values using .values()
+	Iterate through all key, and value pairs using items()
+	Access both key and value without using items()
+	Print items in Key-Value in pair 
+
+7) How Do You Check The Presence Of A Key In A Dictionary? 
+
+-> you can check if a key exists or not in a dictionary using if-in statement/in operator, get(),
+   keys(), handling 'KeyError' exception, and in versions older than Python 3, using has_key().
+
 
 
 
